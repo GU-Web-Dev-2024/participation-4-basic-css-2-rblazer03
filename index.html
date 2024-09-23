@@ -4,9 +4,23 @@
 <head>
     <title>Fall Weather Forecast</title>
     <!-- Link to external stylesheet -->
+    <link href="p4_style.css" rel="stylesheet">
 
 
     <!-- Embedded styles will go here -->
+    <style>
+        .forecast{
+            text-align: center;
+            background-color: white;
+            border: 2px solid;
+            border-color: chocolate;
+        }
+        .day:hover{
+            background-color: chocolate;
+            color: white;
+            font-size: larger;
+        }
+    </style>
 
 </head>
 
@@ -15,11 +29,16 @@
     <div class="forecast">
         <p class="day">Monday: Sunny, 60°F</p>
         <p class="day">Tuesday: Cloudy, 55°F</p>
-        <p class="day">Wednesday: Rainy, 50°F</p>
+        <p class="day">Wednesday: Rainy, 50°F</p> 
+
+        <p class="day">Thursday: Windy, 52°F</p>
+        <p class="day">Friday: Rainy, 47°F</p>
+        <p class="day">Saturday: Sunny, 43°F</p>
+        <p class="day">Sunday: Stormy, 46°F</p>
     </div>
 
     <!-- Example of where inline styles can be added -->
-    <footer style="text-align: center;">Last updated: September 22</footer>
+    <footer style="text-align: center; font-size: 11px;">Last updated: September 22</footer>
 </body>
 
 </html>
